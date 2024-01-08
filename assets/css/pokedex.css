@@ -122,10 +122,52 @@
     text-align: center;
 }
 
+
+.pokemon .detail .combat{
+    width: 4rem;
+    font-size: .625rem;
+    border-radius: 1rem;
+    text-align: center;
+    
+    padding: 1%;
+    list-style: none;
+    color: white;
+    background-color: rgb(173, 36, 36);
+}
+
 .pokemon .detail img {
     max-width: 100%;
     height: 70px;
 }
+
+.pokemon .detail .stats{
+    background-color: red;
+}
+
+
+.pokemon .stats{
+    top: 7px;
+    width:6rem ;
+    font-size: .65rem;
+    text-align: justify;
+    border-radius: 1rem;
+    background-color: white;
+    position: relative;
+}
+
+.pokemon .stats tr{
+
+  color: black; 
+}
+
+
+.pokemon .stats tr, p{
+    
+    left: 10%;
+    position: relative;
+}
+
+
 
 .pagination {
     display: flex;
